@@ -46,10 +46,12 @@
 <div class="layout-container">
 
   <header role="banner">
-    {{ page.header }}
+    <nav role="navigation">
+      <div class="nav-wrapper">
+        {{ page.header }}
+      </div>
+    </nav>
   </header>
-
-  {{ page.primary_menu }}
 
   {{ page.breadcrumb }}
 

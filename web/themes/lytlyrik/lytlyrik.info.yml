@@ -14,7 +14,6 @@ libraries:
 # See: https://www.drupal.org/docs/8/theming/adding-regions-to-a-theme
 regions:
   header: 'Header'
-  primary_menu: 'Primary menu'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
