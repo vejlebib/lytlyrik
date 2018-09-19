@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Theme file for Lytlyrik theme.
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function lytlyrik_preprocess_page(&$variables) {
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['content_classes'] = 'l6 s12 push-l3';
+    $variables['sidebarfirst_classes'] = 'l3 s12 pull-l6';
+    $variables['sidebarsecond_classes'] = 'l3 s12';
+  }
+  elseif (!empty($variables['page']['sidebar_first'])) {
+    $variables['content_classes'] = 'l9 s12 push-l3';
+    $variables['sidebarfirst_classes'] = 'l3 s12 pull-l9';
+  }
+  elseif (!empty($variables['page']['sidebar_second'])) {
+    $variables['content_classes'] = 'l9 s12';
+    $variables['sidebarsecond_classes'] = 'l3 s12';
+  }
+  else {
+    $variables['content_classes'] = 's12';
+  }
+}

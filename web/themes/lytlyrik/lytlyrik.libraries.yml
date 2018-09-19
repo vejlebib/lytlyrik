@@ -1,0 +1,15 @@
+global-styling:
+  css:
+    theme:
+      build/style.css: {}
+
+global-scripts:
+  js:
+    build/index.js: {}
+  dependencies:
+    - core/jquery
+
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/icon?family=Material+Icons': { type: external, minified: true }

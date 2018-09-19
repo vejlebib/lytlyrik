@@ -1,0 +1,25 @@
+name: Lytlyrik
+type: theme
+description: Main theme for Lytlyrik.dk
+core: 8.x
+
+base_theme: stable
+
+libraries:
+  - lytlyrik/fonts
+  - lytlyrik/global-styling
+  - lytlyrik/global-scripts
+
+# Drupal's defaults regions
+# See: https://www.drupal.org/docs/8/theming/adding-regions-to-a-theme
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+  breadcrumb: 'Breadcrumb'

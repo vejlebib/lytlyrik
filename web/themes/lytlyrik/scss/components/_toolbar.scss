@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Make Drupal's admin toolbar play nicely together with materialize css.
+ */
+
+.toolbar {
+  nav {
+    color: #ddd;
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 1;
+    height: auto;
+  }
+}
