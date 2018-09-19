@@ -1,0 +1,20 @@
+uuid: 1c403d71-4f63-4d96-a0c5-49dd500f65a2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lytlyrik
+_core:
+  default_config_hash: vKDVSFwHMcXw-AbHhOcynvv3NSyQWNLZPS605mARwDw
+id: lytlyrik_page_title
+theme: lytlyrik
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Sidetitel
+  provider: core
+  label_display: '0'
+visibility: {  }

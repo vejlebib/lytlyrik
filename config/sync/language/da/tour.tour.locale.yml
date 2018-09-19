@@ -1,0 +1,8 @@
+label: Oversættelse
+tips:
+  locale-language:
+    label: 'Sprog til oversættelse'
+  locale-search:
+    label: Søg
+  locale-translate:
+    label: Oversæt

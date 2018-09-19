@@ -1,0 +1,22 @@
+uuid: 523babec-ee8a-45e3-a73f-52d816f8afa7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - lytlyrik
+_core:
+  default_config_hash: FJJ2r0bw42DqHL5Q2FufIbCe31Z-THwXZURQ-M0i87s
+id: lytlyrik_help
+theme: lytlyrik
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Hjælp
+  provider: help
+  label_display: '0'
+visibility: {  }

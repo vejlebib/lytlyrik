@@ -1,0 +1,22 @@
+uuid: 66d03037-12f0-4b9e-8f77-4fc7364635bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lytlyrik
+_core:
+  default_config_hash: ZdQFxp_aNkFGWiHwnq1dL4zlpO3nJayqrgx9F7q_F5c
+id: lytlyrik_content
+theme: lytlyrik
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Primært sideindhold'
+  provider: system
+  label_display: '0'
+visibility: {  }

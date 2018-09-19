@@ -1,0 +1,26 @@
+uuid: 61132147-30fd-4b55-8a0b-58f11679d088
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - lytlyrik
+_core:
+  default_config_hash: q9K0LS21F7XLuNT68ck1R3U5if0oqI0ZyyIVhfCXdN8
+id: lytlyrik_main_menu
+theme: lytlyrik
+region: header
+weight: -2
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Primær navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

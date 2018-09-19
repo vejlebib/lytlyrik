@@ -1,0 +1,14 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Udfør
+          reset_button_label: Gendan
+          exposed_sorts_label: 'Sortér efter'
+          sort_desc_label: Faldende
+      filters:
+        access:
+          expose:
+            label: 'Seneste tilgang'
+            description: 'En bruger bliver opfattet som online i dette tidsrum efter hun sidst har set en side.'

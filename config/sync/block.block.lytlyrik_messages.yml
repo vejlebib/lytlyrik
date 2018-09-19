@@ -1,0 +1,22 @@
+uuid: 8353780a-f7b3-4747-b33c-c5d1be180522
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lytlyrik
+_core:
+  default_config_hash: Ron5OcY_0EyL7s5mDBUiLG_9LEvcC8KIPNmv6M5uAgE
+id: lytlyrik_messages
+theme: lytlyrik
+region: help
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusmeddelelser
+  provider: system
+  label_display: '0'
+visibility: {  }

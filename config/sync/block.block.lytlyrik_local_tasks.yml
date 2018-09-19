@@ -1,0 +1,22 @@
+uuid: 22459f33-f303-4e09-a163-970b2f8d91f5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lytlyrik
+_core:
+  default_config_hash: igXl1RwWLK2KijmB1eu6sT8BVJcxQqwbbKcI91DVZc8
+id: lytlyrik_local_tasks
+theme: lytlyrik
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Faner
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

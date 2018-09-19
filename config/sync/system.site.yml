@@ -1,0 +1,14 @@
+uuid: 86e00f1f-5b3f-4641-9d41-fb1aba7dd8fb
+name: Lytlyrik
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: da
+default_langcode: da
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

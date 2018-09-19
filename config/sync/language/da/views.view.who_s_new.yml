@@ -1,0 +1,16 @@
+label: 'Nye brugere'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Udfør
+          reset_button_label: Gendan
+          exposed_sorts_label: 'Sortér efter'
+          sort_desc_label: Faldende
+      title: 'Nye brugere'
+  block_1:
+    display_title: 'Nye brugere'
+    display_options:
+      block_description: 'Nye brugere'
+      block_category: Bruger

@@ -1,0 +1,25 @@
+uuid: c15e1359-fac9-4592-886e-24b7b015bcf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lytlyrik
+_core:
+  default_config_hash: 5nFquolsBvfMODac4talrrzlz8UQuLwL4tsU2fXxuNw
+id: lytlyrik_branding
+theme: lytlyrik
+region: header
+weight: -3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
