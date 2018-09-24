@@ -11,7 +11,7 @@ _core:
 id: comments_recent
 label: 'Recent comments'
 module: views
-description: 'Recent comments.'
+description: 'Seneste kommentarer.'
 tag: default
 base_table: comment_field_data
 base_field: cid
@@ -250,7 +250,7 @@ display:
     position: 1
     display_options:
       block_description: 'Recent comments'
-      block_category: 'Lists (Views)'
+      block_category: 'Lister (Views)'
       allow:
         items_per_page: true
       display_extenders: {  }

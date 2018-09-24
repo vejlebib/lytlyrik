@@ -721,7 +721,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Author name'
+            label: Forfatternavn
             description: ''
             use_operator: false
             operator: combine_op
@@ -889,13 +889,13 @@ display:
   page_unapproved:
     display_plugin: page
     id: page_unapproved
-    display_title: 'Unapproved comments'
+    display_title: 'Ikke-godkendte kommentarer'
     position: 2
     display_options:
       path: admin/content/comment/approval
       menu:
         type: tab
-        title: 'Unapproved comments'
+        title: 'Ikke-godkendte kommentarer'
         description: 'Comments unapproved'
         parent: ''
         weight: 1

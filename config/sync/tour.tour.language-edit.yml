@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: uwUxQwqEzjNphw2r1_eXr3GJkw1uI0gWkmWQ6J5OvPI
 id: language-edit
-label: 'Editing languages'
+label: 'Redigering af sprog'
 module: language
 routes:
   -
@@ -16,14 +16,14 @@ tips:
   language-edit-overview:
     id: language-edit-overview
     plugin: text
-    label: 'Editing languages'
-    body: '<p>This page provides the ability to edit a language on your site, including custom languages.</p>'
+    label: 'Redigering af sprog'
+    body: '<p>På denne side kan du redigere sitets sprog, inklusive brugerdefinerede sprog.</p>'
     weight: 1
   language-edit-langcode:
     id: language-edit-langcode
     plugin: text
     label: 'Language code'
-    body: '<p>You cannot change the code of a language on the site, since it is used by the system to keep track of the language.</p>'
+    body: '<p>Du kan ikke ændre en sprogkode på sitet. Det skyldes at systemet bruger koden til at holde styr på sproget.</p>'
     weight: 2
     attributes:
       data-id: edit-langcode-view
@@ -38,7 +38,7 @@ tips:
   language-edit-direction:
     id: language-edit-direction
     plugin: text
-    label: 'Language direction'
+    label: Sprogretning
     body: '<p>Choose if the language is a "Left to right" or "Right to left" language.</p><p>Note that not all themes support "Right to left" layouts, so test your theme if you are using "Right to left".</p>'
     weight: 4
     attributes:
@@ -46,6 +46,6 @@ tips:
   language-edit-continue:
     id: language-edit-continue
     plugin: text
-    label: 'Continuing on'
+    label: 'Fortsætter på'
     body: '<p>Now that you have an overview of the "Edit language" feature, you can continue by:<ul><li>Editing a language</li><li><a href="[site:url]admin/config/regional/language">Viewing configured languages</a></li></ul></p>'
     weight: 5

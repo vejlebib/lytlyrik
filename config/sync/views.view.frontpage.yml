@@ -13,7 +13,7 @@ _core:
 id: frontpage
 label: Frontpage
 module: node
-description: 'All content promoted to the front page.'
+description: 'Alt indhold som vises på forsiden.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -61,7 +61,7 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          title: 'Welcome to [site:name]'
+          title: 'Velkommen til [site:name]'
           plugin_id: title
       exposed_form:
         type: basic
@@ -181,8 +181,8 @@ display:
           tags:
             previous: '‹ Previous'
             next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            first: '« Første'
+            last: 'Sidste »'
           quantity: 9
       query:
         type: views_query

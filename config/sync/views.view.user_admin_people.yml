@@ -9,7 +9,7 @@ _core:
 id: user_admin_people
 label: People
 module: user
-description: 'Find and manage people interacting with your site.'
+description: 'Find og håndtér personer som bruger dit site.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -55,8 +55,8 @@ display:
           tags:
             previous: '‹ Previous'
             next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            first: '« Første'
+            last: 'Sidste »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -149,7 +149,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Bulk update'
+          label: Masseopdatering
           exclude: false
           alter:
             alter_text: false
@@ -592,7 +592,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Name or email contains'
+            label: 'Navn eller e-mail indeholder'
             description: ''
             use_operator: false
             operator: combine_op
@@ -853,7 +853,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'No people available.'
+          content: 'Ingen personer til rådighed.'
           plugin_id: text_custom
       use_more: false
       use_more_always: false
@@ -891,14 +891,14 @@ display:
       menu:
         type: 'default tab'
         title: List
-        description: 'Find and manage people interacting with your site.'
+        description: 'Find og håndtér personer som bruger dit site.'
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
         title: People
-        description: 'Manage user accounts, roles, and permissions.'
+        description: 'Håndtér brugerkonti, roller og tilladelser.'
         menu_name: admin
         weight: 0
       defaults:
