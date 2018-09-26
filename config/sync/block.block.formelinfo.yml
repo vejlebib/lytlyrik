@@ -1,0 +1,22 @@
+uuid: 21cfd43a-047a-4707-bb0d-e690bc8a4428
+langcode: da
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.info_footer
+  module:
+    - simple_block
+  theme:
+    - lytlyrik
+id: formelinfo
+theme: lytlyrik
+region: footer_left
+weight: -4
+provider: null
+plugin: 'simple_block:info_footer'
+settings:
+  id: 'simple_block:info_footer'
+  label: 'Formel info'
+  provider: simple_block
+  label_display: '0'
+visibility: {  }

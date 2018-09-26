@@ -1,0 +1,16 @@
+/**
+ * Layout related styling.
+ */
+
+// Sticky footer.
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+// Sticky footer.
+main {
+  flex: 1 0 auto;
+}
+

@@ -1,0 +1,15 @@
+uuid: 92bbb558-323d-461f-8970-9df07028e64c
+langcode: da
+status: true
+dependencies: {  }
+id: footer_link_1
+title: 'Til bibliotekaren/underviseren'
+route_name: '<front>'
+route_parameters: {  }
+options: {  }
+expanded: false
+menu_name: footer
+enabled: true
+parent: ''
+weight: -49
+description: ''

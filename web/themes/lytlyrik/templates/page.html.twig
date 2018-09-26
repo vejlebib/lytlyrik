@@ -80,13 +80,25 @@
         {% endif %}
       </div>
     </div>
-
   </main>
 
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
+  <footer class="page-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="row">
+        {% if page.footer_left %}
+          <div class="col {{ footer_left_classes }}">
+            {{ page.footer_left }}
+          </div>
+        {% endif %}
+        {% if page.footer_right %}
+          <div class="col {{ footer_right_classes }}">
+            {{ page.footer_right }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    {{ page.footer }}
+  </footer>
+
 
 </div>{# /.layout-container #}

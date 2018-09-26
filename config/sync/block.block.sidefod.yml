@@ -1,0 +1,24 @@
+uuid: af69e169-449c-455b-9657-3d94a2edf290
+langcode: da
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - lytlyrik
+id: sidefod
+theme: lytlyrik
+region: footer_right
+weight: -3
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

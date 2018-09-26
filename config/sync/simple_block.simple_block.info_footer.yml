@@ -1,0 +1,11 @@
+uuid: d5e716fc-9290-4c3c-9c7d-49198ae0f04a
+langcode: da
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: info_footer
+title: 'Formel info'
+content:
+  value: "<h5 class=\"white-text\">Formel info</h5>\r\n<p class=\"grey-text text-lighten-4\">Spicy jalapeno bacon ipsum dolor amet pancetta jerky tenderloin pig pork belly beef filet mignon porchetta leberkas cow turkey pork loin doner. Beef shoulder jowl, boudin pig strip steak turkey pork chop pork belly turducken shank bresaola doner bacon. Sausage pastrami boudin, tri-tip brisket kevin drumstick hamburger.</p>"
+  format: full_html

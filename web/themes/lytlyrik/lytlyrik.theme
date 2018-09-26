@@ -25,4 +25,15 @@ function lytlyrik_preprocess_page(&$variables) {
   else {
     $variables['content_classes'] = 's12';
   }
+
+  if (!empty($variables['page']['footer_left']) && !empty($variables['page']['footer_right'])) {
+    $variables['footer_left_classes'] = 'l6 s12';
+    $variables['footer_right_classes'] = 'l4 offset-l2 s12';
+  }
+  elseif (!empty($variables['page']['footer_left'])) {
+    $variables['footer_left_classes'] = 'l6 s12';
+  }
+  else {
+    $variables['footer_right_classes'] = 'l4 offset-l8 s12';
+  }
 }
