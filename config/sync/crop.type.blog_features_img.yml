@@ -1,0 +1,12 @@
+uuid: cc420dd4-1294-4500-ab60-a638ec34f1e4
+langcode: da
+status: true
+dependencies: {  }
+label: Seneste
+id: blog_features_img
+description: 'Manual crop af billeder på blogs under "Seneste" på forsiden.'
+aspect_ratio: '3:2'
+soft_limit_width: 300
+soft_limit_height: null
+hard_limit_width: 200
+hard_limit_height: null

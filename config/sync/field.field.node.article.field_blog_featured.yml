@@ -1,0 +1,23 @@
+uuid: 72e870b4-dff2-40bd-8f22-0f19e5cbaaed
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_featured
+    - node.type.article
+id: node.article.field_blog_featured
+field_name: field_blog_featured
+entity_type: node
+bundle: article
+label: Seneste
+description: 'Vis i sektionen "Seneste" på forsiden'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

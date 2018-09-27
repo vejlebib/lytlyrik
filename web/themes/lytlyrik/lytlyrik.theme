@@ -37,3 +37,12 @@ function lytlyrik_preprocess_page(&$variables) {
     $variables['footer_right_classes'] = 'l4 offset-l8 s12';
   }
 }
+
+/**
+ * Implements hook_preprocess_image().
+ */
+function lytlyrik_preprocess_image(&$variables) {
+  if ($variables['style_name'] == 'featured_blog') {
+    $variables['attributes']['class'][] = 'activator';
+  }
+}

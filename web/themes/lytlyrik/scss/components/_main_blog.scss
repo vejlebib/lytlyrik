@@ -1,0 +1,36 @@
+/**
+ * Main blog related styling.
+ */
+
+.main-blog-view .card {
+
+  .card-image {
+    img {
+      height: auto;
+    }
+
+    .card-title {
+      font-size: 4.2rem;
+      margin: 0;
+      background-color: rgba(0,0,0,0.4);
+      text-transform: uppercase;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  .card-action {
+    text-align: right;
+
+    .views-field {
+      display: inline-block;
+
+      a {
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+

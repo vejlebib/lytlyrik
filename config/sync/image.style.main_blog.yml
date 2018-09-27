@@ -1,0 +1,25 @@
+uuid: 68e10384-bb0d-4263-8b75-4281bf00acea
+langcode: da
+status: true
+dependencies:
+  config:
+    - crop.type.blog_main_img
+  module:
+    - crop
+name: main_blog
+label: Hovednyhed
+effects:
+  6d4526b6-9d5d-4a01-80d0-f53b5d0a2faf:
+    uuid: 6d4526b6-9d5d-4a01-80d0-f53b5d0a2faf
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: blog_main_img
+  d450bd7b-692d-4842-b105-e123d5f93a78:
+    uuid: d450bd7b-692d-4842-b105-e123d5f93a78
+    id: image_scale
+    weight: 2
+    data:
+      width: 1200
+      height: null
+      upscale: true

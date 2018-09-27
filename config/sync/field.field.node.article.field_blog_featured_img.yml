@@ -1,0 +1,28 @@
+uuid: 76d2b715-b97d-4383-b9da-8f7f23d0af79
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_featured_img
+    - media.type.image
+    - node.type.article
+id: node.article.field_blog_featured_img
+field_name: field_blog_featured_img
+entity_type: node
+bundle: article
+label: 'Seneste billede'
+description: 'Billede der bruges, når blog''en vises under "Seneste" på forsiden.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

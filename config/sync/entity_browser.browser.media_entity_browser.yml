@@ -1,0 +1,44 @@
+uuid: 9d462e46-211c-44e3-9df7-71be5989729c
+langcode: da
+status: true
+dependencies:
+  config:
+    - views.view.media_entity_browser
+  module:
+    - views
+_core:
+  default_config_hash: UoGZLPH_DEy28wDjCYqiBKYsKoHlf6l6deygJjqdgPc
+name: media_entity_browser
+label: 'Media Entity Browser'
+display: modal
+display_configuration:
+  width: '1070'
+  height: '840'
+  link_text: 'Vælg billede'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  6586703a-6976-4124-8a49-cbb07ceaa3b1:
+    settings:
+      view: media_entity_browser
+      view_display: entity_browser_1
+      submit_text: Vælg
+      auto_select: false
+    uuid: 6586703a-6976-4124-8a49-cbb07ceaa3b1
+    weight: 1
+    label: Vis
+    id: view
+  bcc3a4c3-589a-42d4-934c-262dd03ca243:
+    settings:
+      extensions: 'jpg jpeg png gif'
+      media_type: image
+      upload_location: 'public://'
+      multiple: 0
+      submit_text: Upload
+    uuid: bcc3a4c3-589a-42d4-934c-262dd03ca243
+    weight: 2
+    label: Upload
+    id: media_image_upload

@@ -1,0 +1,13 @@
+uuid: 4dec7d9e-f7e2-48f6-8622-8c9263c65ed5
+langcode: da
+status: true
+dependencies:
+  module:
+    - pathauto
+_core:
+  default_config_hash: '-SdRoSbsl_FULjbX8mgESZdeoEOjgi7rDhHNdLOJ8n8'
+id: pathauto_update_alias_node
+label: 'Opdatér alternativ URL'
+type: node
+plugin: pathauto_update_alias
+configuration: {  }

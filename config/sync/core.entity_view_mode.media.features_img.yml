@@ -1,0 +1,10 @@
+uuid: 857b4e14-1ad7-460d-b7b6-a957d7284fab
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.features_img
+label: 'Seneste billede'
+targetEntityType: media
+cache: true

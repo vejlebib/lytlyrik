@@ -1,0 +1,25 @@
+uuid: 69e4aa06-702c-45d7-9b6a-fb61ecc9c062
+langcode: da
+status: true
+dependencies:
+  config:
+    - crop.type.blog_features_img
+  module:
+    - crop
+name: featured_blog
+label: Seneste
+effects:
+  7cdffc67-becc-4426-bfe1-667c2e4cdb02:
+    uuid: 7cdffc67-becc-4426-bfe1-667c2e4cdb02
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: blog_features_img
+  0137f6de-635e-47e4-ae17-fb1b79aafedb:
+    uuid: 0137f6de-635e-47e4-ae17-fb1b79aafedb
+    id: image_scale
+    weight: 2
+    data:
+      width: 300
+      height: null
+      upscale: true

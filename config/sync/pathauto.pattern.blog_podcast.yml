@@ -1,0 +1,22 @@
+uuid: 412f857c-9313-43d8-ae7b-e6e65b06590a
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+id: blog_podcast
+label: Blog/podcast
+type: 'canonical_entities:node'
+pattern: 'podcast/[node:title]'
+selection_criteria:
+  651afc69-1bbe-42c1-bddf-8ad5cabd6a2d:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 651afc69-1bbe-42c1-bddf-8ad5cabd6a2d
+selection_logic: and
+weight: -5
+relationships: {  }

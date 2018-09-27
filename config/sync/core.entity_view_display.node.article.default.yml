@@ -6,13 +6,15 @@ dependencies:
     - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_image
+    - field.field.node.article.field_blog_display_img
+    - field.field.node.article.field_blog_featured
+    - field.field.node.article.field_blog_featured_img
+    - field.field.node.article.field_blog_main
+    - field.field.node.article.field_blog_main_img
     - field.field.node.article.field_tags
-    - image.style.large
     - node.type.article
   module:
     - comment
-    - image
     - text
     - user
 _core:
@@ -31,34 +33,39 @@ content:
     label: hidden
   comment:
     type: comment_default
-    weight: 110
+    weight: 3
     region: content
     label: above
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-  field_image:
-    type: image
-    weight: -1
-    region: content
+  field_blog_main:
+    weight: 4
+    label: above
     settings:
-      image_style: large
-      image_link: ''
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
     third_party_settings: {  }
-    label: hidden
+    type: boolean
+    region: content
   field_tags:
     type: entity_reference_label
-    weight: 10
+    weight: 1
     region: content
     label: above
     settings:
       link: true
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_blog_display_img: true
+  field_blog_featured: true
+  field_blog_featured_img: true
+  field_blog_main_img: true
   langcode: true
