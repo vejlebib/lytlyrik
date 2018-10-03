@@ -1,0 +1,33 @@
+uuid: 741d67eb-39fd-4612-9ec5-13c77f28d8d9
+langcode: da
+status: true
+dependencies:
+  config:
+    - views.view.podcast_display
+  module:
+    - node
+    - views
+  theme:
+    - lytlyrik
+id: views_block__podcast_display_block_1
+theme: lytlyrik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:podcast_display-block_1'
+settings:
+  id: 'views_block:podcast_display-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

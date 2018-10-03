@@ -1,0 +1,25 @@
+uuid: f2dfd9ce-fb31-4d62-b33b-2f3b2c97f119
+langcode: da
+status: true
+dependencies:
+  config:
+    - crop.type.blog_display
+  module:
+    - crop
+name: blog_display
+label: Visning
+effects:
+  a998773e-d38e-46c7-8392-ae0184701ef3:
+    uuid: a998773e-d38e-46c7-8392-ae0184701ef3
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: blog_display
+  14fa3c81-f3cf-454e-bdad-1ddfa297b393:
+    uuid: 14fa3c81-f3cf-454e-bdad-1ddfa297b393
+    id: image_scale
+    weight: 2
+    data:
+      width: 400
+      height: null
+      upscale: true

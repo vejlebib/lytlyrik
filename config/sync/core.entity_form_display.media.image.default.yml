@@ -29,6 +29,7 @@ content:
       preview_image_style: thumbnail
       crop_preview_image_style: crop_thumbnail
       crop_list:
+        - blog_display
         - blog_features_img
         - blog_main_img
       progress_indicator: throbber
