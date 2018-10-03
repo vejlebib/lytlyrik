@@ -13,3 +13,9 @@
 main {
   flex: 1 0 auto;
 }
+
+// Ensure sidebars are in line with page title.
+.layout-sidebar-first,
+.layout-sidebar-second {
+  margin-top: 2.8rem;
+}
