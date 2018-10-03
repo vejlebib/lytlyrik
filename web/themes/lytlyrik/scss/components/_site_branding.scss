@@ -11,4 +11,10 @@
   a:hover {
     color: darken(#fff, 20%);
   }
+
+  // Try to center logo.
+  img {
+    position: relative;
+    top: 8px;
+  }
 }
