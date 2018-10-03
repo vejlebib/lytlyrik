@@ -1,0 +1,10 @@
+/**
+ * Overrides default! variables in materializecss.
+ *
+ * TODO: Find a better way to include this, so we can use functions/mixins from
+ * materialize here.
+ */
+
+$primary-color: #00897b;
+$link-color: #0288d1;
+$card-link-color: $link-color;

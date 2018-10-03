@@ -1,5 +1,8 @@
+@import "pre_default";
+
 @import "~materialize-css/sass/materialize";
 
+@import "components/global";
 @import "components/layout";
 @import "components/frontpage";
 @import "components/toolbar";

@@ -1,0 +1,18 @@
+/**
+ * Global styling/overrides for lytlyrik theme.
+ */
+
+a {
+  // Adds the missing hover effect on links.
+  transition: color .3s ease;
+  &:hover {
+    color: lighten($link-color, 20%);
+  }
+}
+
+header, footer {
+  // Disables link hover effect in footer, header.
+  a:hover {
+    @extend .grey-text, .text-lighten-3;
+  }
+}
