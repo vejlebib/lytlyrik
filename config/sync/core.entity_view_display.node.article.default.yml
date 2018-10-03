@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.article.field_blog_featured_img
     - field.field.node.article.field_blog_main
     - field.field.node.article.field_blog_main_img
+    - field.field.node.article.field_blog_podcast_episodes
     - field.field.node.article.field_tags
     - node.type.article
   module:
@@ -33,12 +34,21 @@ content:
     label: hidden
   comment:
     type: comment_default
-    weight: 2
+    weight: 3
     region: content
     label: above
     settings:
       view_mode: default
       pager_id: 0
+    third_party_settings: {  }
+  field_blog_podcast_episodes:
+    type: entity_reference_entity_view
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+      view_mode: default
     third_party_settings: {  }
   field_tags:
     type: entity_reference_label

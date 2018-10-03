@@ -1,0 +1,25 @@
+episode_content_type: episode
+rss_path_name: podcast.xml
+title: Lytlyrik
+description: 'Bibliotekernes podcast...'
+language: en-us
+copyright: '2018 Lytlyrik'
+explicit: false
+owner_author: Lytlyrik.dk
+owner_name: Lytlyrik.dk
+owner_email: admin@lytlyrik.dk
+channel_image: 'https://www.drupal.org/files/styles/grid-3/public/project-images/simplepodcast_logo.png'
+category_1: Arts|Literature
+category_2: Arts|Design
+category_3: ''
+item_title: title
+item_author: uid
+item_subtitle: title
+item_summary: body
+item_image: field_episode_image
+item_media: field_episode_audio
+item_media_length: field_episode_length
+item_media_duration: field_episode_duration
+_core:
+  default_config_hash: '-x2ET2Gk-OhUn_Ni5cQxqQaeGU90Uj8NJ36jYIPAvgc'
+langcode: da

@@ -1,0 +1,24 @@
+uuid: b5aa05da-a423-4f5e-9c60-b58df4916ae6
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.episode
+  module:
+    - text
+_core:
+  default_config_hash: OqetBCN3qWcLDtNb8qrkdmxw601VYZGgF9tSNv9icbE
+id: node.episode.body
+field_name: body
+entity_type: node
+bundle: episode
+label: 'Episode Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

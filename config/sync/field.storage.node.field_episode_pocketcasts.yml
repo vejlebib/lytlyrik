@@ -1,0 +1,21 @@
+uuid: 2de7ec5a-442a-4275-9785-45153d880305
+langcode: da
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: KdAYoqb7mU9E7pAe_zeweR9IsnBTjmZeyuYd7eekm3E
+id: node.field_episode_pocketcasts
+field_name: field_episode_pocketcasts
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

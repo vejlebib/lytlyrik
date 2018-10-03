@@ -1,0 +1,55 @@
+uuid: 2e26a85b-d235-4100-9ae6-d1bfbdbf6975
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.episode.body
+    - field.field.node.episode.field_episode_audio
+    - field.field.node.episode.field_episode_duration
+    - field.field.node.episode.field_episode_image
+    - field.field.node.episode.field_episode_itunes
+    - field.field.node.episode.field_episode_length
+    - field.field.node.episode.field_episode_overcast
+    - field.field.node.episode.field_episode_pocketcasts
+    - field.field.node.episode.field_episode_rss_image
+    - field.field.node.episode.field_episode_stitcher
+    - field.field.node.episode.field_episode_youtube
+    - node.type.episode
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 1q1CcOcrbJsHG70HwPhW3xbfTuCuxNoGHPLmOiz1GLo
+id: node.episode.teaser
+targetEntityType: node
+bundle: episode
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_episode_audio:
+    label: 'Episode Audio'
+    weight: 102
+    settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_episode_duration: true
+  field_episode_image: true
+  field_episode_itunes: true
+  field_episode_length: true
+  field_episode_overcast: true
+  field_episode_pocketcasts: true
+  field_episode_rss_image: true
+  field_episode_stitcher: true
+  field_episode_youtube: true
+  langcode: true

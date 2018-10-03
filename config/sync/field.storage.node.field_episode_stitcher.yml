@@ -1,0 +1,21 @@
+uuid: 617269fa-7ea8-4df8-8a5b-5b77221fb1fb
+langcode: da
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: NI9O7s0IVM4QtjkTR8J5GHHnSeZK-noZBVT5TbUf7b0
+id: node.field_episode_stitcher
+field_name: field_episode_stitcher
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,4 @@
+label: 'Episode Length'
+description: 'Episode file size (length) in bytes'
+settings:
+  suffix: bytes

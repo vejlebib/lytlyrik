@@ -1,0 +1,22 @@
+uuid: cb92f534-22e8-4f2e-b91f-3531d2537127
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: X9NPOvPKrSgotv4XXSsEmY0ezhklCOc0UylJc28i-eg
+id: node.field_episode_length
+field_name: field_episode_length
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

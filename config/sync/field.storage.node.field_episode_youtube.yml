@@ -1,0 +1,21 @@
+uuid: 3cd093a3-557c-49ab-af7b-b345e2c85e08
+langcode: da
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: Zaz7JJncDaUEQ9AoZ2rRZu5jzbeLp0sRjhK9ml0oq98
+id: node.field_episode_youtube
+field_name: field_episode_youtube
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

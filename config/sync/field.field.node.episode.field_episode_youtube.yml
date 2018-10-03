@@ -1,0 +1,25 @@
+uuid: 3d5b7248-399c-480e-bdc5-c5b75f0733cb
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_episode_youtube
+    - node.type.episode
+  module:
+    - link
+_core:
+  default_config_hash: 3M1kSsxWHaWaKmPCAm5VXhtY4ofFrvzQ6wtRHVCC8M8
+id: node.episode.field_episode_youtube
+field_name: field_episode_youtube
+entity_type: node
+bundle: episode
+label: 'YouTube Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

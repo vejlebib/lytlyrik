@@ -1,0 +1,21 @@
+uuid: d2944405-2316-4930-93e2-dc9dde5b8c89
+langcode: da
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: y1FCfbU3nxbVHfhiY0wmkNaMFNeSlQmHLQXtW-VtZ2M
+id: node.field_episode_overcast
+field_name: field_episode_overcast
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

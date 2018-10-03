@@ -1,0 +1,28 @@
+uuid: db2a83d9-3691-4906-8a55-63509893323a
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_podcast_episodes
+    - node.type.article
+    - node.type.episode
+id: node.article.field_blog_podcast_episodes
+field_name: field_blog_podcast_episodes
+entity_type: node
+bundle: article
+label: 'Podcast episoder'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      episode: episode
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

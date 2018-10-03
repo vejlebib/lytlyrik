@@ -1,0 +1,23 @@
+uuid: 8998a20f-641e-47f6-adb7-061cb2639267
+langcode: da
+status: true
+dependencies:
+  enforced:
+    module:
+      - simplepodcast
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: bWa8zfFLWHkZy2RJmXA8EFDwgqTuPArPdTw8Z4IAc_I
+name: Episode
+type: episode
+description: 'Opret en podcast episode.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
