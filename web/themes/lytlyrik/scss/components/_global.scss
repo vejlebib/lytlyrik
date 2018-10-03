@@ -16,3 +16,7 @@ header, footer {
     @extend .grey-text, .text-lighten-3;
   }
 }
+
+h1, h2 {
+  color: color("light-blue", "darken-4");
+}
