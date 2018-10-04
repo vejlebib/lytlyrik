@@ -6,3 +6,12 @@
   width: 100%;
   height: auto;
 }
+
+.node--type-article .field-node-body {
+  max-width: 100%;
+  overflow: hidden;
+
+  iframe, object, embed {
+    width: 100%;
+  }
+}
