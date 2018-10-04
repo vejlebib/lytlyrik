@@ -16,3 +16,5 @@ fonts:
   css:
     theme:
       '//fonts.googleapis.com/icon?family=Material+Icons': { type: external, minified: true }
+      '//fonts.googleapis.com/css?family=Montserrat:400,400i,700': { type: external, minified: true }
+      '//fonts.googleapis.com/css?family=Bitter:400,400i,700': { type: external, minified: true }
