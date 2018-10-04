@@ -51,6 +51,7 @@ settings:
           items:
             - ShowBlocks
             - Source
+            - Styles
   plugins:
     language:
       language_list: un
