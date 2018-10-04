@@ -3,7 +3,6 @@ langcode: da
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_blog_display_img
@@ -15,7 +14,6 @@ dependencies:
     - field.field.node.article.field_tags
     - node.type.article
   module:
-    - comment
     - text
     - user
 _core:
@@ -32,15 +30,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     label: hidden
-  comment:
-    type: comment_default
-    weight: 3
-    region: content
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
   field_blog_podcast_episodes:
     type: entity_reference_entity_view
     weight: 2
@@ -59,6 +48,7 @@ content:
       link: true
     third_party_settings: {  }
 hidden:
+  comment: true
   field_blog_display_img: true
   field_blog_featured: true
   field_blog_featured_img: true
