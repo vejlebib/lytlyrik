@@ -22,5 +22,6 @@
     "build": "webpack --mode=development",
     "watch": "webpack --mode=development --watch"
   },
-  "browserslist": "> 0.25%, not dead"
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {}
 }

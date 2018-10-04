@@ -1,11 +1,11 @@
 global-styling:
   css:
     theme:
-      build/style.css: {preprocess: false}
+      build/style.css: {}
 
 global-scripts:
   js:
-    build/index.js: {}
+    build/index.js: {preprocess: false}
   dependencies:
     - core/drupal
     - core/jquery
