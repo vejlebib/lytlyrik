@@ -45,7 +45,6 @@ web/themes/lytlyrik/build
 /web/robots.txt
 /web/sites/default/default.settings.php
 /web/sites/default/default.services.yml
-/web/sites/development.services.yml
 /web/sites/example.settings.local.php
 /web/sites/example.sites.php
 /web/update.php
