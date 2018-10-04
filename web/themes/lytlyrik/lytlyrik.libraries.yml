@@ -1,7 +1,7 @@
 global-styling:
   css:
     theme:
-      build/style.css: {}
+      build/style.css: {preprocess: false}
 
 global-scripts:
   js:
