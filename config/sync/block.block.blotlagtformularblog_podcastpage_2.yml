@@ -1,4 +1,4 @@
-uuid: b2db11a2-21ce-47ce-9305-56b29769dda8
+uuid: 2b639198-8d63-4100-99d8-9eeaa4dc9c57
 langcode: da
 status: true
 dependencies:
@@ -9,22 +9,21 @@ dependencies:
     - views
   theme:
     - lytlyrik
-id: views_block__blog_podcast_block_1
+id: blotlagtformularblog_podcastpage_2
 theme: lytlyrik
 region: content
-weight: -2
+weight: -4
 provider: null
-plugin: 'views_block:blog_podcast-block_1'
+plugin: 'views_exposed_filter_block:blog_podcast-page_2'
 settings:
-  id: 'views_block:blog_podcast-block_1'
+  id: 'views_exposed_filter_block:blog_podcast-page_2'
   label: ''
   provider: views
   label_display: visible
   views_label: ''
-  items_per_page: none
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /arkiv
     negate: false
     context_mapping: {  }
