@@ -39,6 +39,7 @@
     },
     "require-dev": {
         "drupal/devel": "^1.2",
+        "drupal/stage_file_proxy": "^1.0@alpha",
         "webflo/drupal-core-require-dev": "^8.6.0"
     },
     "conflict": {
