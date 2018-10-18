@@ -4,7 +4,12 @@
 
 .featured-blogs-view {
   .card .card-content {
-    padding-right: 10px;
+    padding: 12px;
+    padding-bottom: 0;
+
+    .views-field {
+      margin-bottom: 1.2rem;
+    }
   }
 
   .card {

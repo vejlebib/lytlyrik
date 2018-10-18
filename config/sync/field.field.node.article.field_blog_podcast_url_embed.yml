@@ -1,0 +1,23 @@
+uuid: 9244ea49-12d1-4635-b5a2-039e702b00bb
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_podcast_url_embed
+    - node.type.article
+  module:
+    - link
+id: node.article.field_blog_podcast_url_embed
+field_name: field_blog_podcast_url_embed
+entity_type: node
+bundle: article
+label: 'Podcast URL embed'
+description: 'Indsæt URL fra  "Embed.ly / oEmbed URL"-feltet for podcast''et på Libsyn.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

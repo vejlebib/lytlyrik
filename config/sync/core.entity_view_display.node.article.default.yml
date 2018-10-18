@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.article.field_blog_main
     - field.field.node.article.field_blog_main_img
     - field.field.node.article.field_blog_podcast_episodes
+    - field.field.node.article.field_blog_podcast_url_embed
     - field.field.node.article.field_tags
     - node.type.article
   module:
@@ -54,5 +55,6 @@ hidden:
   field_blog_featured_img: true
   field_blog_main: true
   field_blog_main_img: true
+  field_blog_podcast_url_embed: true
   langcode: true
   links: true
