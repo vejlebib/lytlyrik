@@ -2,33 +2,36 @@
  * Main blog related styling.
  */
 
-.main-blog-view .card {
+.main-blog-view {
+  margin-top: 2.8rem;
 
-  .card-image {
-    img {
-      height: auto;
-    }
+  .card {
+    .card-image {
+      img {
+        height: auto;
+      }
 
-    .card-title {
-      font-size: 4.2rem;
-      margin: 0;
-      background-color: rgba(0,0,0,0.4);
-      text-transform: uppercase;
+      .card-title {
+        font-size: 4.2rem;
+        margin: 0;
+        background-color: rgba(0,0,0,0.4);
+        text-transform: uppercase;
 
-      a {
-        color: #fff;
+        a {
+          color: #fff;
+        }
       }
     }
-  }
 
-  .card-action {
-    text-align: right;
+    .card-action {
+      text-align: right;
 
-    .views-field {
-      display: inline-block;
+      .views-field {
+        display: inline-block;
 
-      a {
-        margin-right: 0 !important;
+        a {
+          margin-right: 0 !important;
+        }
       }
     }
   }

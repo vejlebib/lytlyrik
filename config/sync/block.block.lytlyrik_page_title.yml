@@ -2,6 +2,8 @@ uuid: 1c403d71-4f63-4d96-a0c5-49dd500f65a2
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - lytlyrik
 _core:
@@ -17,4 +19,9 @@ settings:
   label: Sidetitel
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
