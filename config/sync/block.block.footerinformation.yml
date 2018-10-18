@@ -1,0 +1,25 @@
+uuid: d573bac4-7341-4ff6-895c-a12d6eba4c1c
+langcode: da
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c6c3ff50-b9ff-44a4-bd0c-b91728abcc07'
+  module:
+    - block_content
+  theme:
+    - lytlyrik
+id: footerinformation
+theme: lytlyrik
+region: footer_left
+weight: 0
+provider: null
+plugin: 'block_content:c6c3ff50-b9ff-44a4-bd0c-b91728abcc07'
+settings:
+  id: 'block_content:c6c3ff50-b9ff-44a4-bd0c-b91728abcc07'
+  label: 'Footer information'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

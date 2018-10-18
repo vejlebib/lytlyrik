@@ -43,6 +43,7 @@ module:
   page_cache: 0
   path: 0
   rdf: 0
+  recreate_block_content: 0
   search: 0
   shortcut: 0
   simple_block: 0
