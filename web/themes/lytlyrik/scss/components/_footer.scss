@@ -10,3 +10,25 @@
   font-size: 2.0rem;
   margin: 0;
 }
+
+.footer-logo {
+  display: block;
+  width: 33%;
+}
+
+.library-logo-wrapper {
+  margin: 1.3rem 0;
+
+  .footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+
+    &:first-of-type {
+      margin-left: -18px;
+    }
+  }
+}
+
+.footer-container > .row {
+  margin-bottom: 0;
+}

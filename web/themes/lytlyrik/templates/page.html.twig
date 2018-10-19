@@ -88,6 +88,11 @@
         {% if page.footer_left %}
           <div class="col {{ footer_left_classes }}">
             {{ page.footer_left }}
+            <img src="{{ base_path ~ directory }}/images/SLKS_Logo_RGB.png" class="footer-logo" />
+            <div class="library-logo-wrapper">
+              <img src="{{ base_path ~ directory }}/images/vejlebib-logo.png" class="footer-logo" />
+              <img src="{{ base_path ~ directory }}/images/silkeborg-logo.png" class="footer-logo" />
+            </div>
           </div>
         {% endif %}
         {% if page.footer_right %}
