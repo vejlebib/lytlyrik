@@ -1,0 +1,31 @@
+uuid: 075c129f-42ea-4991-baa4-58ecb821184f
+langcode: da
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ce269801-97f7-4755-b8e7-ea49743d2305'
+  module:
+    - block_content
+    - system
+  theme:
+    - lytlyrik
+id: podcastlogoer
+theme: lytlyrik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:ce269801-97f7-4755-b8e7-ea49743d2305'
+settings:
+  id: 'block_content:ce269801-97f7-4755-b8e7-ea49743d2305'
+  label: 'Podcast logoer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /arkiv
+    negate: false
+    context_mapping: {  }

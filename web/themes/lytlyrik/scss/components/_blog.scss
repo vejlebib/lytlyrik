@@ -20,7 +20,7 @@
   }
 }
 
-// Blog listing
+// Blog listing.
 .path-arkiv #block-lytlyrik-page-title {
   display: inline-blocK;
 }
@@ -30,4 +30,17 @@
   display: inline-block;
   float: right;
   margin-top: 3rem;
+}
+
+// Podcast logos.
+.podcast-logo-wrapper {
+  max-width: 800px;
+  margin: 2.8rem auto;
+  text-align: center;
+
+  img {
+    display: inline-block;
+    width: 40%;
+    margin: 0 5px;
+  }
 }
