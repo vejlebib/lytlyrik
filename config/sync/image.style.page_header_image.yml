@@ -1,0 +1,25 @@
+uuid: 3ca0f34f-a19f-4d99-ae0a-d09088ebe2fb
+langcode: da
+status: true
+dependencies:
+  config:
+    - crop.type.page_header_image
+  module:
+    - crop
+name: page_header_image
+label: 'Page header'
+effects:
+  b99da257-7bba-4626-b8be-90dbe4a2bd16:
+    uuid: b99da257-7bba-4626-b8be-90dbe4a2bd16
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: page_header_image
+  4e8375d2-53ad-4440-bd14-f020aaef9ac0:
+    uuid: 4e8375d2-53ad-4440-bd14-f020aaef9ac0
+    id: image_scale
+    weight: 2
+    data:
+      width: 800
+      height: null
+      upscale: true

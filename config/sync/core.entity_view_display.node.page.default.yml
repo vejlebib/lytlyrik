@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_page_files
+    - field.field.node.page.field_page_header_image
+    - field.field.node.page.field_page_links
     - node.type.page
   module:
     - text
@@ -18,12 +21,13 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 101
-    region: content
 hidden:
+  field_page_files: true
+  field_page_header_image: true
+  field_page_links: true
   langcode: true
+  links: true

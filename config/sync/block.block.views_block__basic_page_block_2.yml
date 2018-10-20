@@ -1,33 +1,33 @@
-uuid: 741d67eb-39fd-4612-9ec5-13c77f28d8d9
+uuid: a9cef7da-eca9-4c13-9c58-78b6917d18b1
 langcode: da
 status: true
 dependencies:
   config:
-    - views.view.podcast_display
+    - views.view.basic_page
   module:
-    - node
+    - ctools
     - views
   theme:
     - lytlyrik
-id: views_block__podcast_display_block_1
+id: views_block__basic_page_block_2
 theme: lytlyrik
 region: sidebar_second
-weight: -4
+weight: -6
 provider: null
-plugin: 'views_block:podcast_display-block_1'
+plugin: 'views_block:basic_page-block_2'
 settings:
-  id: 'views_block:podcast_display-block_1'
+  id: 'views_block:basic_page-block_2'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
   context_mapping: {  }
 visibility:
-  node_type:
-    id: node_type
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
     bundles:
-      article: article
+      page: page
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'

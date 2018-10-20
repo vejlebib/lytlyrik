@@ -1,0 +1,12 @@
+uuid: c1817290-dbd5-4499-bcbf-02c8d624822c
+langcode: da
+status: true
+dependencies: {  }
+label: 'Page header'
+id: page_header_image
+description: 'Manuel crop af header billeder på simple sider.'
+aspect_ratio: '4:1'
+soft_limit_width: 800
+soft_limit_height: null
+hard_limit_width: 400
+hard_limit_height: null

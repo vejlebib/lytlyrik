@@ -1,0 +1,53 @@
+/**
+ * Styling related to the display of basic page content type.
+ */
+
+.page-node-type-page #block-lytlyrik-page-title h1,
+#block-views-block-basic-page-block-1 {
+  margin: 1.6rem 0;
+}
+
+#block-views-block-basic-page-block-1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Links block in sidebar.
+#block-views-block-basic-page-block-2,
+#block-views-block-basic-page-block-3 {
+  margin: 0;
+  margin-bottom: 1.6rem;
+
+  *, h4 {
+    @extend .grey-text, .text-lighten-5;
+  }
+
+  > h4 {
+    margin: 0;
+  }
+
+  > h4 {
+    border-bottom: 1px solid #fafafa;
+  }
+
+  a:hover {
+    @extend .grey-text, .text-lighten-1;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  .views-field-field-page-links li a:before {
+    content: "> ";
+  }
+}
+
+.page-node-type-page  {
+
+  .layout-sidebar-second {
+    // Here the page title isn't in top, so adjust the margin.
+    margin-top: 1.6rem;
+  }
+
+}

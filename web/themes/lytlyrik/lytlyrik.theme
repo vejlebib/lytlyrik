@@ -38,7 +38,7 @@ function lytlyrik_preprocess_page(&$variables) {
   elseif (!empty($variables['page']['sidebar_second'])) {
     if ($is_node) {
       $variables['content_classes'] = 'l7 m12 s12';
-      $variables['sidebarsecond_classes'] = 'l4 m12 push-l1';
+      $variables['sidebarsecond_classes'] = 'l4 m12 s12 push-l1';
     }
     else {
       $variables['content_classes'] = 'l9 s12';
@@ -85,4 +85,8 @@ function lytlyrik_preprocess_field(&$variables) {
   $variables['attributes']['class'][] = HTML::getClass($prefix . $field_type);
   $variables['attributes']['class'][] = HTML::getClass($prefix . $entity_type . '-' . $field_name);
   $variables['attributes']['class'][] = HTML::getClass($prefix . $entity_type . '-' . $field_type);
+}
+
+function lytlyrik_preprocess_block__views_block(&$variables) {
+
 }

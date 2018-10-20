@@ -1,0 +1,10 @@
+uuid: 7d6808a9-e451-40c2-984b-3699aff90629
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.page_header_image
+label: 'Page header image'
+targetEntityType: media
+cache: true
