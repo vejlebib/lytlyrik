@@ -24,5 +24,7 @@ Drupal.behaviors.lytlyrik = {
         easing: 'easeInOutQuad'
       });
     });
+
+    $('.sidenav', context).sidenav();
   }
 }

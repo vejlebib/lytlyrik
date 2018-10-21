@@ -30,6 +30,7 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
+      <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down menu-main">
     {% else %}
       <ul>
@@ -42,6 +43,16 @@
         {% endif %}
       </li>
     {% endfor %}
+    </ul>
+
+    {% if menu_level == 0 %}
+      <ul class="sidenav" id="mobile-menu">
+      {% for item in items %}
+        <li{{ item.attributes }}>
+          {{ link(item.title, item.url) }}
+        </li>
+      {% endfor %}
+    {% endif %}
     </ul>
   {% endif %}
 {% endmacro %}
