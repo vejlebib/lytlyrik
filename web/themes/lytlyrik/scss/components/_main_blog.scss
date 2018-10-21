@@ -17,6 +17,12 @@
         background-color: rgba(0,0,0,0.4);
         text-transform: uppercase;
 
+        @media #{$small-and-down} {
+          font-size: 2.8rem;
+          width: 100%;
+          text-align: center;
+        }
+
         a {
           color: #fff;
         }

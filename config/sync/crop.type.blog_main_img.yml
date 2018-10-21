@@ -5,7 +5,7 @@ dependencies: {  }
 label: Hovednyhed
 id: blog_main_img
 description: 'Manual crop af billede til hovednyhed.'
-aspect_ratio: '16:9'
+aspect_ratio: '21:9'
 soft_limit_width: 1200
 soft_limit_height: null
 hard_limit_width: 900
